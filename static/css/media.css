@@ -1,0 +1,254 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .container {
+        width: 950px;
+    }
+    .y_teacher {display: none;}
+    .friends_block {display: none;}
+    .benefits li {padding-right: 20px;}
+    .for_wrap {padding-bottom: 5px;}
+    .for_list > li {margin: 0 97.5px 20px;}
+    .timetable tr td:first-child , .timetable tr th:first-child {padding-right: 20px;}
+    .busy, .free, .free a {
+        width: 110px;
+    }
+    .contacts {
+        float: none;
+        margin: 0 0 0 305px;
+    }
+    .footer_right {
+        float: none;
+        width: auto;
+    }
+    .footer_right .cont_form {
+        float: none;
+        margin: 0 auto 30px;
+    }
+    .map_block {
+        float: none;
+        margin: 0 auto;
+    }
+    .to_top {margin-right: 0;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .container {
+        width: 750px;
+    }
+    .main_nav {display: none;}
+    .y_teacher {display: inline-block;}
+    .teacher {display: none;}
+    .main_header {height: auto;}
+    .main_block {
+        text-align: center;
+        padding: 40px 0 65px;
+    }
+    .main_block > div {padding-left: 0;}
+    .benefits {padding: 30px 0;}
+    .benefits li {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 25px;
+    }
+    .benefits ul li:last-child {border-bottom: none;margin-bottom: 0px;}
+    .benefits li.ico1 {background: url(../images/b1.png) center 25px no-repeat;}
+    .benefits li.ico2 {background: url(../images/b2.png) center 19px no-repeat;}
+    .benefits li.ico3 {background: url(../images/b3.png) center top no-repeat;}
+    .benefits li.ico4 {background: url(../images/b4.png) center top no-repeat;}
+    .for_list > li {margin: 0 47.5px 20px;}
+    .rows_wrap {padding: 0 0 0 95px;}
+    .girl_wrap {display: none;}
+    .title_descr {padding: 0 0 30px;}
+    .training_cost tr td:first-child {padding-left: 15px;}
+    .timetable tr td:first-child , .timetable tr th:first-child {padding-right: 12px;}
+    .timetable table {
+        font-size: 13px;
+    }
+    .busy, .free, .free a {
+        width: 80px;
+        font-size: 12px;
+    }
+    .rev_list li {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .rev_list li:last-child {margin-bottom: 20px;}
+    .contacts {margin-left: 205px;}
+    .bott_footer {
+        text-align: center;
+        padding: 30px 0;
+    }
+    .creator {
+        float: none;
+        padding-right: 0;
+        margin-bottom: 25px;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .creator br {display: inline-block;}
+    .creator:before {
+        left: 50%;
+        margin-left: -24px;
+    }
+    .copyright {
+        float: none;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .to_top {
+        float: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .container {
+        width: auto;
+        padding: 0 15px;
+    }
+    .y_teacher {display: none;}
+    .for_list > li {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .rows_wrap {padding: 0;}
+    .row {
+        padding-right: 0;
+        min-height: auto;
+        padding-top: 55px;
+        text-align: center;
+    }
+    .number {
+        left: 50%;
+        margin-left: -25px;
+    }
+    .row_right {
+        position: relative;
+        width: 100%;
+    }
+    .row_title {text-align: center;}
+    .training_cost table {
+        font-size: 13px;
+    }
+    .training_cost td {padding-right: 15px;}
+    .training_cost td b {font-size: 14px;}
+    .timetable {display: none;}
+    .contacts {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contacts .title {text-align: center;}
+    .p_block {
+        padding-left: 0;
+    }
+    .p_block span {margin-left: 0;}
+    .footer_right .cont_form:before {display: none;}
+    .footer_right .cont_form {text-align: center;}
+    .map_block {text-align: center;}
+    .map_block .f_title br{display: block;}
+    .f_title {padding-bottom: 20px;}
+    .contacts ul {padding-left: 15px;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+    .logo {display: none;}
+    .top_panel {text-align: center;}
+    .phone_block {float: none;}
+    .main_block > span {
+        font-size: 35px;
+        line-height: normal;
+    }
+    .main_block > div div {font-size: 18px;}
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .p_number {font-size: 18px;}
+    .main_block a {
+        display: block;
+        width: 194px;
+        margin: 0 auto 15px;
+        padding: 0;
+    }
+    .main_block .yell_bord_butt {margin-left: auto;}
+    .main_block .yell_bord_butt:before {display: none;}
+    .main_block {padding-bottom: 30px;}
+    .title {
+        font-size: 25px;
+        padding: 30px 0;
+    }
+    .p_block span{font-size: 25px;}
+    .row_title {
+        font-size: 18px;
+    }
+    .training_cost .yell_butt {
+        width: 290px;
+        margin-left: -145px;
+    }
+    .reviews_wrap {padding: 10px 0;}
+    .rev_list {padding-top: 20px;}
+    .rev_list li {
+        padding-left: 0;
+        text-align: center;
+    }
+    .rev_image {
+        position: relative;
+        margin: 0 auto 20px;
+    }
+    .map_block {font-size: 12px;}
+    .reveal-modal {
+        width: 290px;
+        margin-left: -145px;
+        padding: 30px 0 15px;
+        top: 80px;
+    }
+    .reveal-modal form:before {display: none;}
+    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .level {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

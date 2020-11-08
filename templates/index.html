@@ -1,0 +1,447 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ваш преподаватель английского — Султан Меджидов</title>
+<link rel="shortcut icon" href={% static "favicon.ico" %} type="image/x-icon">
+<link href={% static "css/style.css"%} rel="stylesheet">
+<link href={% static "fancybox/jquery.fancybox.css"%} rel="stylesheet">
+<link href={% static "css/media.css"%} rel="stylesheet">
+<!--[if lt IE 9]> <script src={% static "js/html5.js"%}></script> <![endif]-->
+
+</head>
+
+<body>
+    <div class="top_panel">
+        <div class="container">
+            <div class="logo">
+                <span class="teachers_name"><span>Султан</span> Меджидов</span>
+                <span class="y_teacher">ваш преподаватель английского</span>
+            </div><!--logo-->
+            <div class="phone_block">
+                <a class="yell_butt callback" href={% url 'home' %} data-reveal-id="modal"><span>Записаться</span></a>
+                <div>
+                    <div class="call_time">Звоните с 9:00 до 21:00</div>
+                    <a href="tel:89299760399"><div class="p_number">+7 929 <span>976-03-99</span></div></a>
+                </div>
+            </div><!--phone_block-->
+            <ul class="main_nav">
+                <li><a href="{% url 'home' %}#s2">Цены</a></li>
+                <li><a href="{% url 'home' %}#s3">Расписание</a></li>
+                <li><a href="{% url 'home' %}#s4">Отзывы</a></li>
+                <li><a href="{% url 'home' %}#s5">Контакты</a></li>
+            </ul><!--main_nav-->
+        </div>
+    </div><!--top_panel-->
+    <header class="main_header">
+        <div class="container">
+            <div class="main_block">
+                <span>Репетитор по Английскому</span>
+                <div>
+                    <div>Индивидуальные занятия. Научу легко и просто начать говорить.<br>Разговорный язык от <span class="scroll_link">700 рублей за 1 час</span></div>
+                    <a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span>Записаться на урок</span></a>
+                    <a class="yell_bord_butt scroll_down">Или узнать больше</a>
+                </div>
+            </div><!--main_block-->
+            <div class="friends_block">
+                <span>Внимание!</span>
+                <div>Идёт набор учеников!</div>
+                <a href={% url 'home' %} data-reveal-id="modal"><span>Запишитесь</span><br><span>по старым ценам</span></a>
+            </div>
+        </div>
+    </header><!--main_header-->
+    <div class="benefits">
+        <div class="container">
+            <ul>
+                <li class="work">
+                    <div>Более 20 лет опыта работы: </div>
+                    <span>- Репетитор по английскому языку</span><br>
+                    <span>- Подготовка к ЕГЭ по английскому</span><br>
+                    <span>- Подготовка CAE (Cambridge Advanced)</span><br>
+                    <span>- Подготовка FCE (First Certificate)</span><br>
+                    <span>- Преподаватель по английскому языку</span><br>
+                    <span>- Английский на дому</span><br>
+                    <span>- Английский по Skype, Zoom, WhatsApp </span><br>
+                    <span>- Переводчик </span><br>
+                </li>
+                <li class="sert">
+                    <div>Получил сертификат соответствия № Л090725542 <br>«Учитель английского языка». ООО «Инфоурок» </div>
+                    <a class="fancybox" href={% static "images/Сертификат соответствия № ЛО90725542.jpg" %}>
+                    <div><img src={% static "images/sert.png"%} alt=""></div>
+                    <span>Посмотреть</span><br><span>сертификат</span></a>
+                </li>
+                <li class="diplom">
+                    <div>Получил диплом «Английский язык: теория и методика преподавания в образовательной организации»</div>
+                    <a class="fancybox" href={% static "images/ДИПЛОМ УЧИТЕЛЯ АНГЛ ЯЗ.jpg"%}>
+                    <div><img src={% static "images/sert.png"%} alt=""></div>
+                    <span>Посмотреть</span><br><span>сертификат</span></a>
+                </li>
+                <li class="vuz">
+                    <div>Моё образование: </div>
+                        <div>- ДГУ, Факультет иностранных языков</div><span>Специальность: Преподаватель английского языка</span><br>
+                    <div>- ДГПИ, Приборостроительный</div><span>Специальность: Инженер-конструктор РЭА</span>
+
+                    <div>- ООО "Инфоурок", г. Смоленск </div><span>Повышение квалификации уровня английского языка. ФГОС.</span><br>
+
+
+
+
+                </li>
+            </ul>
+        </div>
+    </div><!--benefits-->
+    <div class="for_wrap">
+        <div class="container">
+            <ul class="for_list clear">
+                <li>
+                    <div class="for_title">Для детей</div>
+                    <div class="for_descr">Всегда интересные и энергичные занятия, удержать внимание и поддерживать интерес к языку. </div>
+                    <div class="example_block">
+                        <div>К детям нужен особый подход, чтобы занятия были весёлыми и увлекательными.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="for_title">Экзамены</div>
+                    <div class="for_descr">Подготовка к различным экзаменам, тестам, собеседованиям. Будем подробно разбирать задания.</div>
+                    <ul>
+                        <li>TOEFL <span>(для работы за границей)</span></li>
+                        <li>ЕГЭ<span> (Единый Госэкзамен)</span></li>
+                        <li>FCE<span> (First Certificate)</span></li>
+                        <li>CAE<span> (Cambridge Advanced)</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="for_title">Для взрослых</div>
+                    <div class="for_descr">Специализируюсь как на классических, так и на современных методиках обучения. </div>
+                    <div class="example_block">
+                        <div> Индивидуальные домашние задания с учетом усвояемости. Слежу и довожу до полного усвоения все сложные моменты и нюансы на каждом уровне обучения.</div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="for_title">Блиц-курсы</div>
+                    <div class="for_descr">Всё краткосрочное для случаев, когда нужно быстро решить определённую задачу в изучении английского:</div>
+                    <ul>
+                        <li>Имею большой опыт работы со студентами</li>
+                        <li>Эффективная методика преподавания грамматики, особенностей произношения, изучения слов</li>
+                        <li>TOEFL <span>(для работы за границей)</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div><!--for_wrap-->
+    <div class="training_cost" id="s2">
+        <div class="container">
+            <div class="title">Стоимость обучения</div>
+            <div class="title_descr">Цена указана за академический час. <br>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th><span>У ученика дома
+                        <br><span>Приеду к вам</span></span></th>
+
+
+                        <th><span>Online
+                        <br><span>Skype | WhatsApp | Zoom</span></span></th>
+
+
+                        <th><span>У меня <i></i>Некрасовка
+                        <br><span>17 минут от метро</span></span></th>
+
+
+
+                        <!--
+                        <th><span>В офисе <i></i>Волгоградский пр-т
+                        <br><span>Волгоградский проспект, 32 к7</span></span></th>
+                        <th></th>
+                        -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Дети до 14 лет</td>
+                        <td>1400<b>5</b> <span>/ 60 мин</span></td>
+                        <td>900<b>5</b> <span>/ 60 мин</span></td>
+                        <td>900<b>5</b> <span>/ 60 мин</span></td>
+
+
+                    </tr>
+                    <tr class="white_bg">
+                        <td>Взрослые</td>
+                        <td>1200<b>5</b> <span>/ 60 мин</span></td>
+                        <td>700<b>5</b> <span>/ 60 мин</span></td>
+                        <td>700<b>5</b> <span>/ 60 мин</span></td>
+
+
+
+                    </tr>
+                    <tr>
+                        <td>Экзамены и блиц-курсы</td>
+                        <td>1200<b>5</b> <span>/ 60 мин</span></td>
+                        <td>700<b>5</b> <span>/ 60 мин</span></td>
+                        <td>700<b>5</b> <span>/ 60 мин</span></td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span>Запишитесь ко мне на занятия</span></a>
+    </div><!--training_cost-->
+    <div class="timetable" id="s3">
+        <div class="container">
+            <div class="title">Расписание уроков</div>
+            <div class="title_descr">Расписание актуально на 29 октября 2020.<br>Чтобы уточнить, в какое время можно заниматься, позвоните мне: +7 929 976-03-99</div>
+            <table>
+                <thead>
+                    <th><span></span></th>
+                    <th>Понедельник</th>
+                    <th>Вторник</th>
+                    <th>Среда</th>
+                    <th>Четверг</th>
+                    <th>Пятница</th>
+                    <th>Суббота</th>
+                    <th>Воскресение</th>
+                </thead>
+                  <tbody>
+                    <tr>
+                        <td>9:00—11:00</td>
+
+
+                        <td><span class="busy">Занято</span></td>
+
+                       <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+
+                        <td><span class="busy">Занято</span></td>
+
+                        <td><span class="busy">Занято</span></td>
+
+                        <td><span class="busy">Занято</span></td>
+
+                       <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                    </tr>
+                    <tr>
+                        <td>11:00—13:00</td>
+                        <td><span class="busy">Занято</span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="busy">Занято</span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                    </tr>
+                    <tr>
+                        <td>13:00—15:00</td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                    </tr>
+                    <tr>
+                        <td>15:00—17:00</td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                    </tr>
+                    <tr>
+                        <td>17:00—23:00</td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                        <td><span class="busy">Занято</span></td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                        <td><span class="busy">Занято</span></td>
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+
+                        <td><span class="busy">Занято</span></td>
+
+                        <td><span class="free">Свободно<a href={% url 'home' %} class="yell_butt" data-reveal-id="modal"><span><span>Записаться</span></span></a></span></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div><!--timetable-->
+    <div class="reviews_wrap" id="s4">
+        <div class="container">
+            <div class="title">Мои ученики и их отзывы</div>
+            <div class="title_descr">Я считаю, что изучение иностранного языка вполне может быть простым, интересным и приятным занятием, если очистить его от всевозможной бизнес-шелухи, которая давно заполонила эту область.</div>
+            <div class="rev_list clear">
+                <li>
+                    <div class="rev_image"><img src={% static "images/review4.jpg"%} alt=""></div>
+                    <div class="rev_name">Андрей</div>
+                    <div class="rev_descr">31 год<br>Студент.<br>Курс: повышение уровня. Intermediate.</div>
+                    <div class="rev_body"><span class="left_quote"></span>В первую очередь хочу сказать огромное спасибо  за столь структурированный и адаптированный персонально под меня курс. Такой подход позволил мне в краткие сроки сильно повысить свой уровень английского языка. Уроки проходили в максимально приближенные к темам, которые мне интересны. Султан Пашаевич замечательный педагог, буду рекомендовать его как профессионала в своей области! <span class="right_quote"></span></div>
+
+                </li>
+
+                <li>
+                    <div class="rev_image"><img src={% static "images/review3.jpg"%} alt=""></div>
+                    <div class="rev_name">Настя</div>
+                    <div class="rev_descr">Дочка Маша, 14 лет<br>Учится в 8 классе и хочет стать врачом<br>Курс: повышение успеваемости</div>
+                    <div class="rev_body"><span class="left_quote"></span>Мы очень довольны работой преподавателя английского языка Султаном Пашаевичем, он — замечательный педагог, можем его порекомендовать! Дочка сильно отставала от одноклассников и это сильно влияло на интерес к языке, теперь же, мы лучшие в классе и дочке очень интересно ходить на занятия. Мы продолжаем заниматься, ребенок любит репетитора, результаты есть — все прекрасно у нас.<span class="right_quote"></span></div>
+                </li>
+
+                 <li>
+                    <div class="rev_image"><img src={% static "images/review2.jpg"%} alt=""></div>
+                    <div class="rev_name">Михаил</div>
+                    <div class="rev_descr">43 год<br>Предприниматель.<br>Курс: подготовка для работы за границей
+                    </div>
+                    <div class="rev_body"><span class="left_quote"></span>Султан Пашаевич отличный педагод! Еще на первом занятии постарался максимально детально собрать информацию о моих целях изучаения английского языка и уже на следующий урок адаптитовал занятия под реальные условия которые будут возникать в процессе работы. Тонкий психолог и хорошо разбирается в людях, умеет найти нужный подход к ученику и знает, как добиться результата.<span class="right_quote"></span></div>
+                </li>
+
+            </div>
+
+            <br>
+           <div class="rev_list clear">
+
+
+                <li>
+                    <div class="rev_image"><img src={% static "images/review1.jpg"%} alt=""></div>
+                    <div class="rev_name">Александра</div>
+                    <div class="rev_descr">17 лет<br>Учится в 11 классе, любит театр<br>и хочет стать актрисой<br>Курс: подготовка к ЕГЭ</div>
+                    <div class="rev_body"><span class="left_quote"></span>Я с удовольствием занимаюсь с Султаном Пашаевичем. Уроки нацелены исключительно на подготовку к ЕГЭ по английскому языку. Занятия проходят интересно: параллельно приобретаю знания по грамматике, и улучшаю разговорные навыки. Репетитор преподает в доступной форме, ответственный и довольно общительный. <span class="right_quote"></span></div>
+                </li>
+
+
+                <li>
+                    <div class="rev_image"><img src={% static "images/review6.jpg"%} alt=""></div>
+                    <div class="rev_name">Даяна</div>
+                    <div class="rev_descr">21 год<br>Студентка РАНХиГС, любит путешествовать по городам России и интересуется вопросами политики
+                    <br>Блиц-курс: помощь в написании англоязычной работы</div>
+                    <div class="rev_body"><span class="left_quote"></span>Еще на первом занятии Султан Пашаевич уточнил у меня каких целей в идеале я хотела бы добиться по окончании курса, все последующие занятия были адаптированы под мои цели. Я очень довольна уровнем преподавания педагога и порекомендовала своей подруге, которая тоже начала заниматься с Султаном Пашаевичем. Параллельно подтянула знания в грамматике, у меня появилось огромное желание дальше активно учить английский. <span class="right_quote"></span></div>
+                </li>
+
+                <li>
+                    <div class="rev_image"><img src={% static "images/review5.jpg"%} alt=""></div>
+                    <div class="rev_name">Марина</div>
+                    <div class="rev_descr">30 лет<br>Ходит на курсы фотографии <br>Курс: повышение уровня. Intermediate.</div>
+                    <div class="rev_body"><span class="left_quote"></span>Мне очень нравится преподаватель английского языка Султан Пашаевич, она — грамотный, профессиональный специалист, он выстраивает урок, исходя из индивидуальных потребностей: у меня проще идет грамматика, поэтому он дает её в конце урока, чтобы мне было удобно. <span class="right_quote"></span></div>
+                </li>
+
+
+
+           
+
+            </div>
+
+
+
+        </div>
+
+   </div><!--reviews_wrap-->
+
+<div id="fb-root"></div>
+    <div class="comments_wrap">
+        <div class="container">
+            <!-- Put this script tag to the <head> of your page -->
+            <div class="fb-comments" data-href="http://englishjust.ru/" data-width="100%" data-numposts="5"></d>
+            <div id="vk_comments"></div>
+			<script type="text/javascript">
+			</script>
+        </div>
+    </div><!--comments_wrap-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="main_footer" id="s5">
+        <div class="container">
+            <div class="contacts">
+                <div class="title">Свяжитесь со мной</div>
+                <div class="p_block">
+                    <span>+7 929 976-03-99</span>
+                    <div>Звоните ежедневно с 9:00 до 21:00.<br>Если я не могу ответить, то обязательно перезвоню.</div>
+                </div>
+                <ul>
+
+                    <li>
+                        <a href="https://telegram.me/seo_copywriter" target="blank" class="s_link ico4"><span>telegram.me/@seo_copywriter</span></a>
+                    </li>
+                    <li>
+                        <a href="mailto: Sultan1959@gmail.com " class="s_link ico3"><span>Sultan1959@gmail.com </span></a>
+                    </li>
+                </ul>
+            </div><!--contacts-->
+            <div class="footer_right">
+                <form class="cont_form" action={% url 'main_request' %} method="POST">{% csrf_token %}
+                    <div class="f_title">Оставьте контакты:</div>
+                    <input type="text" name="fio" placeholder="Ваше имя">
+                    <input type="text" name="phone" placeholder="Ваш номер телефона" class="phone_field">
+                    <button class="yell_butt"><span>Оставить контакты</span></button>
+                    <span>Оставьте свой телефон,  я перезвоню вам в течение двух часов</span>
+                </form>
+
+               <div class="map_block">
+                    <div class="f_title">Карта проезда<br> для занятий у меня дома:</div>
+                    <div class="map_wrap">
+                        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9a4f8ae6befb78dd492fc8e99ee01b8f0b3e943cf57d099bea83fc8ac1ce6a57&amp;width=340&amp;height=216&amp;lang=ru_RU&amp;scroll=true"></script>
+
+                    </div>
+                    <span>Москва, метро Некрасовка<br>Люберцы, ул.Назаровская, дом.5/8</span>
+                </div>                
+            </div>
+        </div>
+    </footer><!--main_footer-->
+    <div class="bott_footer">
+        <div class="container">
+            <div class="copyright">© 2019 Султан Меджидов</div>
+            <a class="to_top d_link"><span>Вернуться наверх страницы</span></a>
+        </div>
+    </div><!--bott_footer-->
+    
+    <div class="reveal-modal" id="modal">
+       <form class="cont_form" action={% url 'main_request' %} method="POST">{% csrf_token %}
+            <div class="f_title">Оставьте контакты:</div>
+            <input type="text" name="fio" placeholder="Ваше имя">
+            <input type="text" name="phone" placeholder="Ваш номер телефона" class="phone_field">
+            <button class="yell_butt"><span>Оставить контакты</span></button>
+            <span>Оставьте свой телефон,  я перезвоню вам в течение двух часов</span>
+        </form>
+        <span class="close-reveal-modal"></span>
+    </div>
+
+<script src={% static "js/jquery-1.7.1.min.js"%}></script>
+<script src={% static "js/jquery.reveal.js"%}></script>
+<script src={% static "js/jquery.smint.js"%}></script>
+<script src={% static "fancybox/jquery.fancybox.pack.js"%}></script>
+<script src={% static "js/jquery.maskedinput.js"%}></script>
+<script src={% static "js/jquery.scrollTo.min.js"%}></script>
+<script src={% static "js/scripts.js"%}></script>
+</body>
+</html>
