@@ -196,12 +196,33 @@ img {
     /*color: #ffc600;*/
     padding-bottom: 29px;
 }
+.main_block > div h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    /*color: #ffc600;*/
+    padding-bottom: 29px;
+}
+.main_block > div div h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    /*color: #ffc600;*/
+    padding-bottom: 29px;
+}
 .main_block > div div span {
     display: inline-block;
     padding-bottom: 2px;
     font-weight: 700;
     border-bottom: 2px solid #ffc600;
     cursor: pointer;
+}
+.main_block > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    /*color: #ffc600;*/
+    line-height: 1;
 }
 .main_block > div div span:hover {
     border-color: #fff;
